@@ -1,0 +1,24 @@
+{
+  "name": "specscore",
+  "owner": {
+    "name": "SpecScore"
+  },
+  "plugins": [
+    {
+      "name": "specscore",
+      "source": {
+        "source": "github",
+        "repo": "specscore/ai-plugin-specscore"
+      },
+      "description": "SpecScore CLI plugin: skills that teach AI agents how to use the specscore CLI for spec navigation, linting, and lifecycle operations."
+    },
+    {
+      "name": "specstudio",
+      "source": {
+        "source": "github",
+        "repo": "specscore/specstudio-skills"
+      },
+      "description": "SpecScore Studio — AI skills for spec-driven development: specify, plan, build, verify, review, ship. Turns vague ideas into lint-clean SpecScore artifacts and gates implementation on approval."
+    }
+  ]
+}
