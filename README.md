@@ -31,6 +31,8 @@ codex plugin marketplace add specscore/ai-marketplace
 
 Then enable the plugins you want from Codex's plugin directory. Codex has no `codex plugin add` subcommand; installation happens through the plugin directory after the marketplace is added. The Codex marketplace currently lists `specscore` and `specstudio`.
 
+> **Note — `ref: "main"` is intentional.** The `git-subdir` sources pin Codex to each plugin's `main` branch rather than to a release tag. Only releasable changes land on `main`, so Codex always tracks a shippable tip and picks up updates automatically without a per-release `ref` bump here. The `<name>--v<version>` tags remain as release markers (and for Claude Code's resolver); switch a `ref` to a tag only if you need Codex pinned to a specific release.
+
 ### Other agents
 
 Gemini CLI, GitHub Copilot CLI, and Cursor have no marketplace concept — install each plugin straight from its own repository:
