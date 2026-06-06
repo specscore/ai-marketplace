@@ -1,0 +1,32 @@
+{
+  "name": "specscore",
+  "interface": {
+    "displayName": "SpecScore"
+  },
+  "plugins": [
+    {
+      "name": "specscore",
+      "source": {
+        "source": "local",
+        "path": "./plugins/specscore"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "specstudio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/specstudio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
