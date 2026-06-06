@@ -7,8 +7,10 @@
     {
       "name": "specscore",
       "source": {
-        "source": "local",
-        "path": "./plugins/specscore"
+        "source": "git-subdir",
+        "url": "https://github.com/specscore/ai-plugin-specscore.git",
+        "path": ".",
+        "ref": "main"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19,8 +21,10 @@
     {
       "name": "specstudio",
       "source": {
-        "source": "local",
-        "path": "./plugins/specstudio"
+        "source": "git-subdir",
+        "url": "https://github.com/specscore/specstudio-skills.git",
+        "path": ".",
+        "ref": "main"
       },
       "policy": {
         "installation": "AVAILABLE",
